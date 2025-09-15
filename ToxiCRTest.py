@@ -56,7 +56,7 @@ toxicClassifier = ToxiCR(
     count_profanity=False,
     remove_keywords=True,
     split_identifier=False,
-    embedding="tfidf",
+    embedding="bert",
     load_pretrained=True
 )
 
